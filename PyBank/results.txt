@@ -1,0 +1,18 @@
+Total number of months: 86
+===========================
+
+Total net amount of Profit/Losses: 38382578
+===========================
+
+Average change in Profit/Losses: -2288
+===========================
+
+The greatest increase in profits:
+   Date: Nov-2016
+   Amount: 795914
+===========================
+
+The greatest decrease in losses:
+   Date: Jul-2016
+   Amount: -1163797
+===========================
