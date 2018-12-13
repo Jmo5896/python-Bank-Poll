@@ -1,1 +1,19 @@
-hello world
+Total number of votes: 3521001
+===========================
+
+Total number of candidates: Khan, O'Tooley, Li, Correy
+===========================
+
+Total percentage/count of votes for Khan: 63.00001050837531%, 2218231
+===========================
+
+Total percentage/count of votes for O'Tooley: 2.999999147969569%, 105630
+===========================
+
+Total percentage/count of votes for Li: 13.999996023857989%, 492940
+===========================
+
+Total percentage/count of votes for Correy: 19.999994319797125%, 704200
+===========================
+
+The winner of the election: Khan
