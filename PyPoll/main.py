@@ -16,7 +16,8 @@ import csv
 
 csv_path = 'election_data.csv'
 total_votes = 0
-list_of_candidates = set()
+set_of_candidates = set()
+list_of_candidates =[]
 total_percentages = {}
 
 with open(csv_path, 'r') as f:
@@ -24,17 +25,18 @@ with open(csv_path, 'r') as f:
     next(reader)
     for row in reader:
         total_votes = total_votes + 1
-        list_of_candidates.add(str(row[2]))
+        set_of_candidates.add(str(row[2]))
         if row[2] in total_percentages:
             total_percentages[row[2]] += 1
         else:
             total_percentages[row[2]] = 1
+    list_of_candidates = list(set_of_candidates)
     print(f"Total number of votes: {total_votes}") 
-    print(f"Total number of candidates: {', '.join(list(list_of_candidates))}")
-    print(f"Total percentage of votes for Correy: {(total_percentages['Correy']/total_votes) * 100}%")
-    print(f"Total percentage of votes for Khan: {(total_percentages['Khan']/total_votes) * 100}%")
-    print(f"Total percentage of votes for Li: {(total_percentages['Li']/total_votes) * 100}%")
-    print(f"Total percentage of votes for O'Tooley: {(total_percentages["O'Tooley"]/total_votes) * 100}%")
+    print(f"Total number of candidates: {', '.join(list_of_candidates)}")
+    print(f"Total percentage of votes for {list_of_candidates[0]}: {(total_percentages[list_of_candidates[0]]/total_votes) * 100}%")
+    print(f"Total percentage of votes for {list_of_candidates[1]}: {(total_percentages[list_of_candidates[1]]/total_votes) * 100}%")
+    print(f"Total percentage of votes for {list_of_candidates[2]}: {(total_percentages[list_of_candidates[2]]/total_votes) * 100}%")
+    print(f"Total percentage of votes for {list_of_candidates[3]}: {(total_percentages.get(list_of_candidates[3])/total_votes) * 100}%")
 def put_in_text():
     return f"""hello world"""
 
