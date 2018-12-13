@@ -16,7 +16,6 @@
 import csv
 
 csv_path = 'budget_data.csv'
-csv_output = 'results.txt'
 total_months = 0
 net_total = 0
 array_of_diferrence =[]
