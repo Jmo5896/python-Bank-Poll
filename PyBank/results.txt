@@ -8,10 +8,10 @@ Average change in Profit/Losses: -2288
 ===========================
 
 The greatest increase in profits:
-   Date: Nov-2016
-   Amount: 795914
+   Date: Feb-2012
+   Amount: 1926159
 ===========================
 
 The greatest decrease in losses:
-   Date: Jul-2016
-   Amount: -1163797
+   Date: Sep-2013
+   Amount: -2196167
